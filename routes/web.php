@@ -14,4 +14,4 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class,'index']);
-Route::get('/', [HomeController::class,'reserv']);
+Route::get('/reservacion', [HomeController::class,'reserv']);
